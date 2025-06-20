@@ -1,0 +1,44 @@
+[
+    {
+      "name": "Standard Personnel Transporter",
+      "type": "transporter",
+      "mass": 10,
+      "power_draw": 18,
+      "range": 30,
+      "cycle_time": 6,
+      "simultaneous_capacity": 6,
+      "volume": 14,
+      "crew_required": 2,
+      "tech_tier": 2,
+      "description": "Standard six-pad transporter system used for safe personnel transfers at short range.",
+      "tags": ["transporter", "personnel", "standard"]
+    },
+    {
+      "name": "Cargo Pattern Buffer Array",
+      "type": "transporter",
+      "mass": 16,
+      "power_draw": 25,
+      "range": 20,
+      "cycle_time": 8,
+      "simultaneous_capacity": 2,
+      "volume": 18,
+      "crew_required": 3,
+      "tech_tier": 3,
+      "description": "Specialized system for transporting bulky cargo with reinforced pattern integrity buffers.",
+      "tags": ["transporter", "cargo", "logistics"]
+    },
+    {
+      "name": "Quantum-Linked Site-to-Site Transporter",
+      "type": "transporter",
+      "mass": 22,
+      "power_draw": 40,
+      "range": 60,
+      "cycle_time": 4,
+      "simultaneous_capacity": 8,
+      "volume": 20,
+      "crew_required": 4,
+      "tech_tier": 5,
+      "description": "Next-generation transporter with real-time quantum entanglement alignment for rapid, long-range transport.",
+      "tags": ["transporter", "advanced", "tactical", "long-range"]
+    }
+  ]

@@ -1,0 +1,41 @@
+[
+    {
+      "name": "Basic Science Pod",
+      "type": "science_lab",
+      "mass": 12,
+      "power_draw": 15,
+      "research_output": 40,
+      "analysis_speed": 0.6,
+      "volume": 14,
+      "crew_required": 2,
+      "tech_tier": 1,
+      "description": "A modest lab for field experiments and simple data analysis during missions.",
+      "tags": ["science", "basic", "field"]
+    },
+    {
+      "name": "Multi-Discipline Research Suite",
+      "type": "science_lab",
+      "mass": 18,
+      "power_draw": 25,
+      "research_output": 80,
+      "analysis_speed": 0.85,
+      "volume": 20,
+      "crew_required": 4,
+      "tech_tier": 3,
+      "description": "Advanced lab capable of supporting a wide range of scientific disciplines and mission research.",
+      "tags": ["science", "research", "multi-discipline"]
+    },
+    {
+      "name": "Quantum Field Analysis Lab",
+      "type": "science_lab",
+      "mass": 26,
+      "power_draw": 35,
+      "research_output": 130,
+      "analysis_speed": 0.95,
+      "volume": 28,
+      "crew_required": 5,
+      "tech_tier": 5,
+      "description": "Top-tier lab with specialized instrumentation for exotic particles, subspace analysis, and theoretical research.",
+      "tags": ["science", "quantum", "advanced", "anomaly"]
+    }
+  ]

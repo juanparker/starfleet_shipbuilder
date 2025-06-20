@@ -1,0 +1,41 @@
+[
+    {
+      "name": "Basic Life Support Unit",
+      "type": "life_support",
+      "mass": 10,
+      "power_draw": 10,
+      "crew_supported": 100,
+      "redundancy_rating": 0.5,
+      "volume": 14,
+      "crew_required": 1,
+      "tech_tier": 1,
+      "description": "Entry-level environmental system capable of sustaining up to 100 crew under standard conditions.",
+      "tags": ["life_support", "basic", "environment"]
+    },
+    {
+      "name": "Redundant Environmental Core",
+      "type": "life_support",
+      "mass": 16,
+      "power_draw": 18,
+      "crew_supported": 200,
+      "redundancy_rating": 0.8,
+      "volume": 18,
+      "crew_required": 2,
+      "tech_tier": 3,
+      "description": "Advanced life support unit with full failover protection and optimized CO₂/O₂ cycling.",
+      "tags": ["life_support", "reliable", "mid-tier"]
+    },
+    {
+      "name": "Bioadaptive Habitat System",
+      "type": "life_support",
+      "mass": 24,
+      "power_draw": 30,
+      "crew_supported": 500,
+      "redundancy_rating": 0.95,
+      "volume": 28,
+      "crew_required": 3,
+      "tech_tier": 5,
+      "description": "Cutting-edge life support system with adaptive environmental controls and emergency isolation capabilities.",
+      "tags": ["life_support", "advanced", "adaptive"]
+    }
+  ]

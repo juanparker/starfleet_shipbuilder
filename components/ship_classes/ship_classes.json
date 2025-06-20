@@ -1,0 +1,91 @@
+[
+  {
+    "name": "Intrepid-Class",
+    "frame_size": "Medium",
+    "description": "A medium-sized, modular frame suited for deep space outfitting.",
+    "hull_mass_limit": 120,
+    "power_handling_cap": 100,
+    "crew_capacity": 120,
+    "component_hardpoints": 12,
+    "volume_capacity": 300,
+    "tech_tier": 2,
+    "build_cost": 8500,
+    "build_time": 12,
+    "required_facilities": ["Standard Shipyard"],
+    "mission_bonus_tags": ["exploration", "science", "first_contact"],
+    "mount_points": [
+      { "type": "phaser_bank", "location": "fore" },
+      { "type": "phaser_bank", "location": "aft" },
+      { "type": "photon_torpedo", "location": "fore" }
+    ]
+  },
+  {
+    "name": "Defiant-Class",
+    "frame_size": "Small",
+    "description": "A compact, heavily armed escort designed for combat and tactical superiority.",
+    "hull_mass_limit": 90,
+    "power_handling_cap": 150,
+    "crew_capacity": 50,
+    "component_hardpoints": 8,
+    "volume_capacity": 180,
+    "tech_tier": 3,
+    "build_cost": 7200,
+    "build_time": 9,
+    "required_facilities": ["Standard Shipyard"],
+    "mission_bonus_tags": ["combat", "escort", "interception"],
+    "mount_points": [
+      { "type": "phaser_bank", "location": "fore" },
+      { "type": "phaser_bank", "location": "aft" },
+      { "type": "phaser_bank", "location": "port" },
+      { "type": "phaser_bank", "location": "starboard" },
+      { "type": "photon_torpedo", "location": "fore" },
+      { "type": "photon_torpedo", "location": "aft" }
+    ]
+  },
+  {
+    "name": "Galaxy-Class",
+    "frame_size": "Capital",
+    "description": "A large-scale multi-role starship with expansive facilities for exploration, diplomacy, and defense.",
+    "hull_mass_limit": 300,
+    "power_handling_cap": 250,
+    "crew_capacity": 1000,
+    "component_hardpoints": 24,
+    "volume_capacity": 1000,
+    "tech_tier": 4,
+    "build_cost": 22000,
+    "build_time": 28,
+    "required_facilities": ["Capital Shipyard", "Advanced Fabrication"],
+    "mission_bonus_tags": ["diplomacy", "exploration", "defense", "science"],
+    "mount_points": [
+      { "type": "phaser_bank", "location": "fore" },
+      { "type": "phaser_bank", "location": "aft" },
+      { "type": "phaser_bank", "location": "port" },
+      { "type": "phaser_bank", "location": "starboard" },
+      { "type": "phaser_bank", "location": "dorsal" },
+      { "type": "phaser_bank", "location": "ventral" },
+      { "type": "photon_torpedo", "location": "fore" },
+      { "type": "photon_torpedo", "location": "aft" },
+      { "type": "photon_torpedo", "location": "dorsal" },
+      { "type": "photon_torpedo", "location": "ventral" }
+    ]
+  },
+  {
+    "name": "Nova-Class",
+    "frame_size": "Small",
+    "description": "A short-range science vessel optimized for survey missions and research operations.",
+    "hull_mass_limit": 70,
+    "power_handling_cap": 80,
+    "crew_capacity": 80,
+    "component_hardpoints": 10,
+    "volume_capacity": 200,
+    "tech_tier": 2,
+    "build_cost": 5500,
+    "build_time": 8,
+    "required_facilities": ["Standard Shipyard"],
+    "mission_bonus_tags": ["science", "survey", "research"],
+    "mount_points": [
+      { "type": "phaser_bank", "location": "fore" },
+      { "type": "phaser_bank", "location": "aft" }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+    {
+      "name": "Class-5 Warp Core",
+      "type": "warp_core",
+      "mass": 18,
+      "power_output": 100,
+      "stability_rating": 0.98,
+      "volume": 20,
+      "crew_required": 4,
+      "tech_tier": 2,
+      "description": "A reliable core suited for mid-range vessels and standard operations.",
+      "tags": ["power", "standard", "mid-range"]
+    },
+    {
+      "name": "Class-7 Warp Core",
+      "type": "warp_core",
+      "mass": 22,
+      "power_output": 150,
+      "stability_rating": 0.94,
+      "volume": 25,
+      "crew_required": 6,
+      "tech_tier": 3,
+      "description": "A high-output core ideal for exploratory or lightly armed capital ships.",
+      "tags": ["power", "exploration", "advanced"]
+    },
+    {
+      "name": "Prototype Quantum Core",
+      "type": "warp_core",
+      "mass": 28,
+      "power_output": 220,
+      "stability_rating": 0.87,
+      "volume": 30,
+      "crew_required": 8,
+      "tech_tier": 5,
+      "description": "Experimental power plant with massive output but unstable energy flow. Handle with care.",
+      "tags": ["power", "experimental", "unstable", "high-risk"]
+    }
+  ]

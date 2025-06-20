@@ -1,0 +1,41 @@
+[
+    {
+      "name": "Standard Impulse Engine",
+      "type": "impulse_engine",
+      "mass": 12,
+      "power_draw": 25,
+      "sublight_speed": 0.25,
+      "maneuverability": 0.6,
+      "volume": 16,
+      "crew_required": 2,
+      "tech_tier": 1,
+      "description": "A basic impulse drive for standard sublight travel and minimal maneuvering capability.",
+      "tags": ["propulsion", "basic", "sublight"]
+    },
+    {
+      "name": "High-Output Impulse Drive",
+      "type": "impulse_engine",
+      "mass": 18,
+      "power_draw": 35,
+      "sublight_speed": 0.35,
+      "maneuverability": 0.8,
+      "volume": 20,
+      "crew_required": 3,
+      "tech_tier": 3,
+      "description": "Advanced impulse system providing greater thrust and improved tactical maneuverability.",
+      "tags": ["propulsion", "combat", "agile"]
+    },
+    {
+      "name": "Fusion-Boosted Impulse Drive",
+      "type": "impulse_engine",
+      "mass": 24,
+      "power_draw": 40,
+      "sublight_speed": 0.42,
+      "maneuverability": 0.75,
+      "volume": 24,
+      "crew_required": 4,
+      "tech_tier": 4,
+      "description": "Cutting-edge impulse drive using fusion boosters to achieve peak sublight speeds.",
+      "tags": ["propulsion", "high-speed", "advanced"]
+    }
+  ]

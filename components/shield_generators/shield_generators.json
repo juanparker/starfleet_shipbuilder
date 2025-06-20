@@ -1,0 +1,41 @@
+[
+    {
+      "name": "Basic Shield Matrix",
+      "type": "shield_generator",
+      "mass": 14,
+      "power_draw": 20,
+      "shield_strength": 150,
+      "recharge_rate": 4,
+      "volume": 18,
+      "crew_required": 3,
+      "tech_tier": 1,
+      "description": "Early-generation shield system capable of deflecting light energy weapon fire and debris.",
+      "tags": ["defense", "basic", "low-tier"]
+    },
+    {
+      "name": "Regenerative Shield Array",
+      "type": "shield_generator",
+      "mass": 18,
+      "power_draw": 30,
+      "shield_strength": 250,
+      "recharge_rate": 8,
+      "volume": 22,
+      "crew_required": 4,
+      "tech_tier": 3,
+      "description": "Self-healing shield array with faster recharge cycles and improved resistance.",
+      "tags": ["defense", "regenerative", "combat"]
+    },
+    {
+      "name": "Aegis Field Projector",
+      "type": "shield_generator",
+      "mass": 26,
+      "power_draw": 45,
+      "shield_strength": 400,
+      "recharge_rate": 10,
+      "volume": 30,
+      "crew_required": 5,
+      "tech_tier": 5,
+      "description": "State-of-the-art shield system that provides robust coverage and field reinforcement against heavy assaults.",
+      "tags": ["defense", "advanced", "high-capacity"]
+    }
+  ]

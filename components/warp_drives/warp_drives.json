@@ -1,0 +1,41 @@
+[
+    {
+      "name": "Type-6 Warp Drive",
+      "type": "warp_drive",
+      "mass": 16,
+      "power_draw": 60,
+      "max_warp_factor": 7.5,
+      "efficiency_rating": 0.85,
+      "volume": 22,
+      "crew_required": 4,
+      "tech_tier": 2,
+      "description": "Reliable warp drive used in most mid-tier vessels, offering good range and efficiency.",
+      "tags": ["propulsion", "standard", "exploration"]
+    },
+    {
+      "name": "Type-9 Warp Drive",
+      "type": "warp_drive",
+      "mass": 20,
+      "power_draw": 75,
+      "max_warp_factor": 9.2,
+      "efficiency_rating": 0.92,
+      "volume": 26,
+      "crew_required": 5,
+      "tech_tier": 3,
+      "description": "High-performance warp system designed for fast-response missions and long-distance travel.",
+      "tags": ["propulsion", "fast", "long-range"]
+    },
+    {
+      "name": "Transwarp Coil Prototype",
+      "type": "warp_drive",
+      "mass": 30,
+      "power_draw": 100,
+      "max_warp_factor": 9.99,
+      "efficiency_rating": 0.70,
+      "volume": 35,
+      "crew_required": 6,
+      "tech_tier": 5,
+      "description": "Unstable experimental drive capable of transwarp speeds with significant energy cost and operational risk.",
+      "tags": ["experimental", "transwarp", "unstable"]
+    }
+  ]

@@ -1,0 +1,41 @@
+[
+    {
+      "name": "Short-Range Sensor Array",
+      "type": "sensor_array",
+      "mass": 8,
+      "power_draw": 10,
+      "scan_range": 50,
+      "resolution": 0.6,
+      "volume": 10,
+      "crew_required": 1,
+      "tech_tier": 1,
+      "description": "Basic sensor package for navigation and short-range object detection.",
+      "tags": ["sensor", "basic", "navigation"]
+    },
+    {
+      "name": "Long-Range Multi-Spectral Scanner",
+      "type": "sensor_array",
+      "mass": 14,
+      "power_draw": 20,
+      "scan_range": 150,
+      "resolution": 0.85,
+      "volume": 16,
+      "crew_required": 2,
+      "tech_tier": 3,
+      "description": "Versatile sensor array capable of detecting multiple spectral bands across vast distances.",
+      "tags": ["sensor", "exploration", "multi-spectrum"]
+    },
+    {
+      "name": "Quantum Phase Detector Grid",
+      "type": "sensor_array",
+      "mass": 20,
+      "power_draw": 30,
+      "scan_range": 220,
+      "resolution": 0.95,
+      "volume": 22,
+      "crew_required": 3,
+      "tech_tier": 5,
+      "description": "Advanced grid enabling real-time anomaly tracking and cloaked object detection.",
+      "tags": ["sensor", "anomaly", "stealth-detection", "advanced"]
+    }
+  ]

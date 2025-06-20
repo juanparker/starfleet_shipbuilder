@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Mk I Computer Core",
+    "type": "computer_core",
+    "mass": 10,
+    "power_draw": 15,
+    "processing_power": 60,
+    "ai_support": false,
+    "volume": 14,
+    "crew_required": 2,
+    "tech_tier": 1,
+    "description": "Standard early-generation computer system for ship control and basic data analysis.",
+    "tags": ["core", "basic", "command"]
+  },
+  {
+    "name": "Mk III Neural Net Core",
+    "type": "computer_core",
+    "mass": 14,
+    "power_draw": 25,
+    "processing_power": 100,
+    "ai_support": true,
+    "volume": 18,
+    "crew_required": 3,
+    "tech_tier": 3,
+    "description": "Adaptive neural network computer core capable of predictive analytics and AI integration.",
+    "tags": ["core", "ai", "adaptive", "mid-tier"]
+  },
+  {
+    "name": "Quantum Bio-Computer Core",
+    "type": "computer_core",
+    "mass": 20,
+    "power_draw": 40,
+    "processing_power": 160,
+    "ai_support": true,
+    "volume": 25,
+    "crew_required": 4,
+    "tech_tier": 5,
+    "description": "State-of-the-art hybrid biological and quantum processor, capable of advanced tactical simulation and decision-making.",
+    "tags": ["core", "quantum", "experimental", "ai"]
+  }
+]

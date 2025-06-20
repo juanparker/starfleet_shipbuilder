@@ -1,0 +1,44 @@
+[
+    {
+      "name": "Type-VII Phaser Bank",
+      "type": "phaser_bank",
+      "mass": 8,
+      "power_draw": 12,
+      "damage_output": 30,
+      "firing_arc": "forward",
+      "cooldown_time": 3,
+      "volume": 10,
+      "crew_required": 2,
+      "tech_tier": 2,
+      "description": "Standard dual-emitter phaser bank, effective against most light threats.",
+      "tags": ["weapon", "phaser", "standard"]
+    },
+    {
+      "name": "Type-X Phaser Bank",
+      "type": "phaser_bank",
+      "mass": 12,
+      "power_draw": 18,
+      "damage_output": 50,
+      "firing_arc": "omnidirectional",
+      "cooldown_time": 2,
+      "volume": 14,
+      "crew_required": 3,
+      "tech_tier": 3,
+      "description": "High-powered phaser bank capable of wide arc attacks with reduced cooldown.",
+      "tags": ["weapon", "phaser", "high-power"]
+    },
+    {
+      "name": "Pulse Phaser Cannon",
+      "type": "phaser_bank",
+      "mass": 16,
+      "power_draw": 25,
+      "damage_output": 70,
+      "firing_arc": "narrow",
+      "cooldown_time": 1,
+      "volume": 16,
+      "crew_required": 3,
+      "tech_tier": 4,
+      "description": "Rapid-fire pulse phaser system used for overwhelming shield defenses in tactical encounters.",
+      "tags": ["weapon", "phaser", "rapid-fire", "tactical"]
+    }
+  ]

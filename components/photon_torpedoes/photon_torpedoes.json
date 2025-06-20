@@ -1,0 +1,44 @@
+[
+    {
+      "name": "Mk I Torpedo Launcher",
+      "type": "photon_torpedo",
+      "mass": 10,
+      "power_draw": 10,
+      "damage_output": 100,
+      "reload_time": 5,
+      "ammunition_capacity": 12,
+      "volume": 14,
+      "crew_required": 2,
+      "tech_tier": 1,
+      "description": "Basic single-shot launcher with limited magazine capacity, suited for defensive roles.",
+      "tags": ["weapon", "torpedo", "basic"]
+    },
+    {
+      "name": "Dual-Tube Photon Launcher",
+      "type": "photon_torpedo",
+      "mass": 16,
+      "power_draw": 18,
+      "damage_output": 180,
+      "reload_time": 4,
+      "ammunition_capacity": 24,
+      "volume": 18,
+      "crew_required": 3,
+      "tech_tier": 3,
+      "description": "Mid-tier dual-tube launcher with improved capacity and firing rate for sustained engagements.",
+      "tags": ["weapon", "torpedo", "dual", "mid-tier"]
+    },
+    {
+      "name": "Quantum-Ready Torpedo System",
+      "type": "photon_torpedo",
+      "mass": 24,
+      "power_draw": 28,
+      "damage_output": 280,
+      "reload_time": 3,
+      "ammunition_capacity": 32,
+      "volume": 24,
+      "crew_required": 4,
+      "tech_tier": 5,
+      "description": "Heavy-duty launcher optimized for photon or quantum torpedoes, capable of devastating alpha strikes.",
+      "tags": ["weapon", "torpedo", "heavy", "quantum-compatible"]
+    }
+  ]

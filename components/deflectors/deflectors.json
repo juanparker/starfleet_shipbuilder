@@ -1,0 +1,41 @@
+[
+    {
+      "name": "Standard Navigational Deflector",
+      "type": "deflector",
+      "mass": 10,
+      "power_draw": 15,
+      "deflection_rating": 75,
+      "sensor_boost": 0.1,
+      "volume": 14,
+      "crew_required": 2,
+      "tech_tier": 1,
+      "description": "Basic deflector used to clear space debris and assist low-resolution sensor sweeps.",
+      "tags": ["navigation", "standard", "low-power"]
+    },
+    {
+      "name": "Multi-Band Deflector Array",
+      "type": "deflector",
+      "mass": 16,
+      "power_draw": 25,
+      "deflection_rating": 120,
+      "sensor_boost": 0.25,
+      "volume": 18,
+      "crew_required": 3,
+      "tech_tier": 3,
+      "description": "Upgraded deflector system offering improved protection and enhanced sensor harmonics.",
+      "tags": ["navigation", "sensor-boost", "mid-tier"]
+    },
+    {
+      "name": "Quantum Phase Deflector",
+      "type": "deflector",
+      "mass": 22,
+      "power_draw": 40,
+      "deflection_rating": 180,
+      "sensor_boost": 0.4,
+      "volume": 25,
+      "crew_required": 4,
+      "tech_tier": 5,
+      "description": "Experimental deflector with quantum phase-shifting capability to repel energy-based threats and enhance deep scan operations.",
+      "tags": ["experimental", "sensor-array", "high-performance"]
+    }
+  ]
