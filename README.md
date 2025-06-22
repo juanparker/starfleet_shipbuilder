@@ -260,3 +260,13 @@ Each photon torpedo launcher:
 - Provides heavy payload-based offensive capability.
 - Uses `reload_time` to control rate of fire.
 - Tracks onboard torpedoes using `ammunition_capacity`.
+
+## Command Line Ship Builder
+
+Use `ship_builder_cli.py` for an interactive way to assemble a starship from the included components. The script walks through selecting a ship class, naming the vessel and choosing systems like the warp core, drives and weapons. When finished, the configuration is stored in `ships/saved_ships.json` for later retrieval.
+
+Run the builder with:
+
+```bash
+python ship_builder_cli.py
+```
