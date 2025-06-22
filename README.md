@@ -264,3 +264,5 @@ Each photon torpedo launcher:
 ## Building Ships Interactively
 
 Run `python ship_builder_cli.py` and follow the prompts to choose a ship class and install components. The finished configuration will be saved in the `ships/` directory as a JSON file.
+
+As you select each component the CLI now shows progress bars reflecting current mass, volume, crew, and power usage compared to the limits of the chosen ship class. This helps avoid over-provisioning while building your ship.
