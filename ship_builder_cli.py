@@ -31,6 +31,31 @@ class ShipBuilder:
         self.phaser_banks = load_phaser_banks_from_json('components/phaser_banks/phaser_banks.json')
         self.photon_torpedoes = load_photon_torpedoes_from_json('components/photon_torpedoes/photon_torpedoes.json')
 
+    def _display_progress(self, ship_class, components):
+        total_mass = sum(c.mass for c in components)
+        total_volume = sum(c.volume for c in components)
+        total_power_draw = sum(getattr(c, 'power_draw', 0) for c in components)
+        total_crew = sum(c.crew_required for c in components)
+        warp_core = next((c for c in components if getattr(c, 'type', '') == 'warp_core'), None)
+        power_output = warp_core.power_output if warp_core else 0
+
+        def bar(current, limit, width=20):
+            if limit == 0:
+                ratio = 0
+            else:
+                ratio = min(current / limit, 1)
+            filled = int(ratio * width)
+            return '[' + '#' * filled + '-' * (width - filled) + f'] {current}/{limit}'
+
+        print('\n=== Build Progress ===')
+        print(f"Mass       : {bar(total_mass, ship_class.hull_mass_limit)}")
+        print(f"Volume     : {bar(total_volume, ship_class.volume_capacity)}")
+        if power_output:
+            print(f"Power Draw : {bar(total_power_draw, power_output)}")
+        else:
+            print(f"Power Draw : {total_power_draw} (warp core not selected)")
+        print(f"Crew       : {bar(total_crew, ship_class.crew_capacity)}")
+
     def _select(self, options, prompt):
         print(prompt)
         for i, option in enumerate(options, start=1):
@@ -44,19 +69,29 @@ class ShipBuilder:
 
         components = []
         components.append(self._select(self.warp_cores, '\nSelect warp core:'))
+        self._display_progress(ship_class, components)
         components.append(self._select(self.warp_drives, '\nSelect warp drive:'))
+        self._display_progress(ship_class, components)
         components.append(self._select(self.life_support, '\nSelect life support system:'))
+        self._display_progress(ship_class, components)
         components.append(self._select(self.deflectors, '\nSelect deflector:'))
+        self._display_progress(ship_class, components)
         components.append(self._select(self.impulse_engines, '\nSelect impulse drive:'))
+        self._display_progress(ship_class, components)
         components.append(self._select(self.shield_generators, '\nSelect shield generator:'))
+        self._display_progress(ship_class, components)
         components.append(self._select(self.computer_cores, '\nSelect computer core:'))
+        self._display_progress(ship_class, components)
         components.append(self._select(self.sensor_arrays, '\nSelect sensor array:'))
+        self._display_progress(ship_class, components)
 
         # Optional components
         if input('Add science lab? (y/n): ').lower().startswith('y'):
             components.append(self._select(self.science_labs, '\nSelect science lab:'))
+            self._display_progress(ship_class, components)
         if input('Add transporter? (y/n): ').lower().startswith('y'):
             components.append(self._select(self.transporters, '\nSelect transporter:'))
+            self._display_progress(ship_class, components)
 
         phaser_slots = sum(1 for mp in ship_class.mount_points if mp['type'] == 'phaser_bank')
         torpedo_slots = sum(1 for mp in ship_class.mount_points if mp['type'] == 'photon_torpedo')
@@ -65,6 +100,7 @@ class ShipBuilder:
         for _ in range(phaser_slots):
             if input('Add phaser bank? (y/n): ').lower().startswith('y'):
                 components.append(self._select(self.phaser_banks, 'Select phaser bank:'))
+                self._display_progress(ship_class, components)
             else:
                 break
 
@@ -72,6 +108,7 @@ class ShipBuilder:
         for _ in range(torpedo_slots):
             if input('Add photon torpedo launcher? (y/n): ').lower().startswith('y'):
                 components.append(self._select(self.photon_torpedoes, 'Select torpedo launcher:'))
+                self._display_progress(ship_class, components)
             else:
                 break
 
