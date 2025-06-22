@@ -260,3 +260,7 @@ Each photon torpedo launcher:
 - Provides heavy payload-based offensive capability.
 - Uses `reload_time` to control rate of fire.
 - Tracks onboard torpedoes using `ammunition_capacity`.
+
+## Building Ships Interactively
+
+Run `python ship_builder_cli.py` and follow the prompts to choose a ship class and install components. The finished configuration will be saved in the `ships/` directory as a JSON file.
